@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+#carSelection {
+  width: 80%;
+  max-width: 500px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#carSelection select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+#carSelection button {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 1%;
+  font-size: 16px;
+  color: white;
+  background-color: #28b487;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#carSelection button:hover {
+  background-color: #1a7d63;
+}
+
+#carSelection input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#carInfoContainer {
+  margin-top: 15px;
+  width: 80%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
